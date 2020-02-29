@@ -52,7 +52,7 @@ $(document).ready(function(){
 
 		darVuelta: function (carta) {
 			carta.addClass('seleccionada');
-			carta.css({'background-image':'url("img/img' +carta.data('carta')+'.jpg")'});
+			carta.css({'background-image':'url("images/img' +carta.data('carta')+'.jpg")'});
 			if ($('.seleccionada').length == 2) {
 				juego.chequearMatch();
 			}
